@@ -1,0 +1,182 @@
+QWidget#Mainwindow
+{
+    background-color:#ffffff;
+    border-radius:5px;
+}
+
+
+QWidget#centralwidget
+{
+    background-color:#ffffff;
+    border-left:0.5px solid lightgray;
+    border-right:0.5px solid lightgray;
+    border-bottom:0.5px solid #e5e5e5;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding:5px 5px 5px 5px
+}
+
+QPushButton#minbtn
+{
+    border-image:url(./pic/min.svg);
+    background:transparent;
+    border-radius:2px;
+    border:none;
+}
+QPushButton#minbtn:hover{background:green;}
+
+QPushButton#closebtn
+{
+    border-image:url(./pic/close.svg);
+    background:transparent;
+    border-radius:2px;
+    border:none;
+}
+QPushButton#closebtn:hover{background:red;}
+
+QPushButton#loginbtn
+{
+    text-align:middle;
+    background:#4fb9ff;
+    border:none;
+    color:white;
+    border-radius: 5px;
+    font-size:18px;
+}
+QPushButton#loginbtn:hover{background:#46a7e3;color:white;}
+
+QPushButton#rerrorbtn
+{
+    text-align:middle;
+    background:#4fb9ff;
+    border:none;
+    color:white;
+    border-radius: 5px;
+    font-size:18px;
+}
+QPushButton#rerrorbtn:hover{background:#46a7e3;color:white;}
+
+QPushButton#loginerrorbtn
+{
+    text-align:middle;
+    background:#4fb9ff;
+    border:none;
+    color:white;
+    border-radius: 5px;
+    font-size:18px;
+}
+QPushButton#loginerrorbtn:hover{background:#46a7e3;color:white;}
+
+QPushButton#registerbtn
+{
+    text-align:middle;
+    background:transparent;
+    border:none;
+    color:#999999;
+    font-size:12px;
+}
+QPushButton#registerbtn:hover{color:#7d7d7d;}
+
+QPushButton#registerOKbtn
+{
+    text-align:middle;
+    background:#4fb9ff;
+    border:none;
+    color:white;
+    border-radius: 5px;
+    font-size:18px;
+}
+QPushButton#registerOKbtn:hover{background:#46a7e3;color:white;}
+
+QPushButton#registerNObtn
+{
+    text-align:middle;
+    background:#4fb9ff;
+    border:none;
+    color:white;
+    border-radius: 5px;
+    font-size:18px;
+}
+QPushButton#registerNObtn:hover{background:#46a7e3;color:white;}
+
+
+QPushButton#rhead
+{
+    background:transparent;
+    border:2px solid lightgray;
+    border-radius:4px;
+}
+
+QPushButton#forgetPswBtn
+{
+    border-image:url(./pic/forget.svg);
+    background:transparent;
+    border-radius:4px;
+    border:none;
+}
+QPushButton#forgetPswBtn:hover{background:#88bbff;}
+
+QLabel#pic
+{
+    border-image:url(./pic/user.svg);
+    background:transparent;
+    border-radius:2px;
+    border:none;
+}
+
+QLineEdit#rid
+{
+    border:none;
+    background:transparent;
+    border-bottom:1px solid #bebebe;
+    font-size:16px;
+    font:bold;
+}
+QLineEdit#rid:hover{border-bottom:1px solid #9a9a9a;}
+QLineEdit#rid:focus{border-bottom:1px solid #88bbff;}
+
+QLineEdit#rname
+{
+    border:none;
+    background:transparent;
+    border-bottom:1px solid #bebebe;
+    font-size:16px;
+    font:bold;
+}
+QLineEdit#rname:hover{border-bottom:1px solid #9a9a9a;}
+QLineEdit#rname:focus{border-bottom:1px solid #88bbff;}
+
+QLineEdit#rpsw
+{
+    border:none;
+    background:transparent;
+    border-bottom:1px solid #bebebe;
+    font-size:16px;
+    font:bold;
+}
+QLineEdit#rpsw:hover{border-bottom:1px solid #9a9a9a;}
+QLineEdit#rpsw:focus{border-bottom:1px solid #88bbff;}
+
+QLineEdit#uid
+{
+    border:none;
+    background:transparent;
+    border-bottom:1px solid #bebebe;
+    font-size:16px;
+    font:bold;
+}
+QLineEdit#uid:hover{border-bottom:1px solid #9a9a9a;}
+QLineEdit#uid:focus{border-bottom:1px solid #88bbff;}
+
+QLineEdit#psw
+{
+    border:none;
+    background:transparent;
+    border-bottom:1px solid #bebebe;
+    font-size:16px;
+    font:bold;
+}
+QLineEdit#psw:hover{border-bottom:1px solid #9a9a9a;}
+QLineEdit#psw:focus{border-bottom:1px solid #88bbff;}

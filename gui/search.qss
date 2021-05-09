@@ -1,0 +1,53 @@
+QWidget#Mainwindow
+{
+    background-color:#ffffff;
+    border-radius:5px;
+}
+
+
+QWidget#centralwidget
+{
+    background-color:#ffffff;
+    border:2px solid #e5e5e5;
+    border-radius: 5px;
+    padding:5px 5px 5px 5px
+}
+
+QPushButton#minbtn
+{
+    border-image:url(./pic/min.svg);
+    background:transparent;
+    border-radius:2px;
+    border:none;
+}
+QPushButton#minbtn:hover{background:green;}
+
+QPushButton#closebtn
+{
+    border-image:url(./pic/close.svg);
+    background:transparent;
+    border-radius:2px;
+    border:none;
+}
+QPushButton#closebtn:hover{background:red;}
+
+QPushButton#searchbtn
+{
+    border-image:url(./pic/search0.svg);
+    background:transparent;
+    border-radius:2px;
+    border:none;
+}
+QPushButton#searchbtn:hover{border-image:url(./pic/search.svg);}
+
+QLineEdit#idEdit
+{
+    border:none;
+    background:transparent;
+    border-bottom:1px solid #bebebe;
+    font-size:16px;
+    font:bold;
+}
+QLineEdit#idEdit:hover{border-bottom:1px solid #9a9a9a;}
+QLineEdit#idEdit:focus{border-bottom:1px solid #88bbff;}
+

@@ -1,0 +1,121 @@
+                                    QWidget#userinfo{
+                                   background-color:#292929;
+                                   border-top-left-radius: 5px;
+                                   border-bottom-left-radius: 5px;
+                                   }
+
+                                   QWidget#centralwidget
+                                   {
+                                   background-color:#ffffff;
+                                   border-left:0.5px solid lightgray;
+                                   border-right:0.5px solid lightgray;
+                                   border-bottom:0.5px solid #e5e5e5;
+                                   border-bottom-left-radius: 5px;
+                                   border-bottom-right-radius: 5px;
+                                   border-top-left-radius: 5px;
+                                   border-top-right-radius: 5px;
+                                   padding:5px 5px 5px 5px
+                                   }
+
+                                    QWidget#dialogwidget
+                                    {
+                                    background-color:#e3e3e3;
+                                    }
+
+                                   QPushButton#searchbtn
+                                   {
+                                   border-image:url(./pic/search0.svg);
+                                   background:transparent;
+                                   border-radius:2px;
+                                   border:none;
+                                   }
+                                   QPushButton#searchbtn:hover{border-image:url(./pic/search.svg);cursor:hand;}
+
+                                   QPushButton#minbtn
+                                   {
+                                   border-image:url(./pic/min.svg);
+                                   background:transparent;
+                                   border-radius:2px;
+                                   border:none;
+                                   }
+                                   QPushButton#minbtn:hover{background:green;}
+
+                                   QPushButton#closebtn
+                                   {
+                                   border-image:url(./pic/close.svg);
+                                   background:transparent;
+                                   border-radius:2px;
+                                   border:none;
+                                   }
+                                   QPushButton#closebtn:hover{background:red;}
+
+                                   QPushButton#send
+                                   {
+                                   text-align:middle;
+                                    background:#d9d9d9;
+                                   border:1px solid gray;
+                                   border-radius: 5px;
+                                   font-size:20px;
+                                   font:bold;
+                                   }
+                                   QPushButton#send:hover{background:green;color:white;cursor:pointer;}
+
+                                   QPushButton#audio
+                                   {
+                                   border-image:url(./pic/audio0.svg);
+                                   background:transparent;
+                                   border-radius:2px;
+                                   border:none;
+                                   }
+                                   QPushButton#audio:hover{border-image:url(./pic/audio.svg);}
+
+                                   QPushButton#picture
+                                   {
+                                   border-image:url(./pic/image0.svg);
+                                   background:transparent;
+                                   border-radius:2px;
+                                   border:none;
+                                   }
+                                   QPushButton#picture:hover{border-image:url(./pic/image.svg);}
+
+                                   QPushButton#video
+                                   {
+                                   border-image:url(./pic/video0.svg);
+                                   background:transparent;
+                                   border-radius:2px;
+                                   border:none;
+                                   }
+                                   QPushButton#video:hover{border-image:url(./pic/video.svg);}
+
+                                   QPushButton#addgroup
+                                   {
+                                   border-image:url(./pic/addgroup-dark.svg);
+                                   background:transparent;
+                                   border-radius:2px;
+                                   border:none;
+                                   }
+                                   QPushButton#addgroup:hover{border-image:url(./pic/addgroup-light.svg);}
+
+                                   QPushButton#creategroup
+                                   {
+                                   border-image:url(./pic/creategroup-dark.svg);
+                                   background:transparent;
+                                   border-radius:2px;
+                                   border:none;
+                                   }
+                                   QPushButton#creategroup:hover{border-image:url(./pic/creategroup-light.svg);}
+
+                                   QPushButton#addfriend
+                                   {
+                                   border-image:url(./pic/addfriend-dark.svg);
+                                   background:transparent;
+                                   border-radius:2px;
+                                   border:none;
+                                   }
+                                   QPushButton#addfriend:hover{border-image:url(./pic/addfriend-light.svg);}
+
+                                   QPlainTextEdit#input
+                                   {
+                                   border:none;
+                                   background:transparent;
+                                   }
